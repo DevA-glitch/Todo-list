@@ -24,11 +24,11 @@ li {
 }
 
 p {
-    padding: .7rem;
-    width: 54.3vh;
+    padding: .73rem 1.6rem;
     background-color: rgb(59, 0, 0);
     color: #fff;
     letter-spacing: 1px;
+    width: 100%;
 }
 
 form {
@@ -39,7 +39,7 @@ form {
 
 input {
     padding: .31rem;
-    width: 54.4vh;
+    width: 100%;
 
 }
 
@@ -48,7 +48,6 @@ input {
     background-color: rgb(145, 255, 180);
     color: black;
     border: 1px solid black;
-    width: 18vh;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
