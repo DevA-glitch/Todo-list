@@ -35,12 +35,16 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1.5rem;
 }
 
 input {
-    padding: .31rem;
-    width: 100%;
-
+    padding: .37rem 4.5rem;
+    max-width: 100%;
+    text-align: start;
+    background-color: rgb(244, 250, 255);
+    border: 1px solid black;
+    font-size: 1rem;
 }
 
 .btn-1 {
@@ -69,8 +73,10 @@ input {
 }
 
 input::placeholder {
-    font-size: 11px;
+    font-family: 'Galdeano', sans-serif;
+    font-size: 12px;
     letter-spacing: 1px;
-    color: gray;
+    color: rgba(58, 58, 58, 0.849);
+    font-style: italic;
 }
 
