@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Galdeano', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    padding: .7rem;
+    width: 54.3vh;
+    background-color: rgb(59, 0, 0);
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: .31rem;
+    width: 54.4vh;
+
+}
+
+.btn-1 {
+    padding: .44rem 1rem;
+    background-color: rgb(145, 255, 180);
+    color: black;
+    border: 1px solid black;
+    width: 18vh;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-2 {
+    padding: .7rem 1rem;
+    background-color: black;
+    background-color: rgb(213, 213, 255);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-3 {
+    padding: .7rem 1rem;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
